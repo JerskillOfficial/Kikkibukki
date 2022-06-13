@@ -10,10 +10,10 @@
   let img_arr = [/*i0,*/ i1, i2, i3, i4];
   let img: string = i1,
     i = 0;
-  // setInterval(() => {
-  //   img = img_arr[i];
-  //   i = i++ > img_arr.length ? 0 : i;
-  // }, 5e3);
+  setInterval(() => {
+    img = img_arr[i];
+    i = i++ > img_arr.length ? 0 : i;
+  }, 3e3);
 </script>
 
 <header>
